@@ -28,7 +28,7 @@ import java.util.List;
 public class FlickrFetcher {
 
     private static final String TAG = "FlickrFetcher";
-    private static final String API_KEY = "insert api key here";
+    private static final String API_KEY = BuildConfig.API_KEY;
     private static final String FETCH_RECENTS_METHOD = "flickr.photos.getRecent";
     private static final String SEARCH_METHOD = "flickr.photos.search";
     private static final Uri ENDPOINT = Uri.parse("https://api.flickr.com/services/rest/")
